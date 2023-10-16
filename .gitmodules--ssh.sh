@@ -1,0 +1,1 @@
+cp .ssh.gitmodules > .gitmodules
