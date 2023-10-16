@@ -1,6 +1,5 @@
 {
   "name": "@btakita/briantakita.me-dev",
-  "module": "index.ts",
   "type": "module",
   "devDependencies": {
     "@btakita/-briantakita.me-dev-bin": "workspace:*",
