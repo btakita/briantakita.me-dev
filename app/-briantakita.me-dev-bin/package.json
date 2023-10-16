@@ -1,0 +1,12 @@
+{
+  "name": "@btakita/-briantakita.me-dev-bin",
+  "private": true,
+  "type": "module",
+  "version": "0.0.0",
+  "bin": {
+    "tmux-dev": "bin/tmux-dev.sh"
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  }
+}
