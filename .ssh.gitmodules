@@ -1,3 +1,6 @@
+[submodule "app/assets.briantakita.me"]
+	path = app/assets.briantakita.me
+	url = git@github.com:btakita/assets.briantakita.me.git
 [submodule "app/briantakita.me"]
 	path = app/briantakita.me
 	url = git@github.com:btakita/briantakita.me.git
