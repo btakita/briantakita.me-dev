@@ -1,1 +1,2 @@
-cp .ssh.gitmodules > .gitmodules
+#!/bin/sh
+cp .ssh.gitmodules .gitmodules
