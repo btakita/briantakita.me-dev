@@ -22,3 +22,9 @@
 [submodule "lib/ui--server--briantakita"]
 	path = lib/ui--server--briantakita
 	url = git@github.com:btakita/ui--server--briantakita.git
+[submodule "vendor/mini-van"]
+	path = vendor/mini-van
+	url = git@github.com:vanjs-org/mini-van.git
+[submodule "vendor/van"]
+	path = vendor/van
+	url = git@github.com:vanjs-org/van.git
