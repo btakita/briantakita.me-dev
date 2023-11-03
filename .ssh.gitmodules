@@ -7,6 +7,9 @@
 [submodule "lib/domain--all--blog"]
 	path = lib/domain--all--blog
 	url = git@github.com:btakita/domain--all--blog.git
+[submodule "lib/domain--browser--briantakita"]
+	path = lib/domain--browser--briantakita
+	url = git@github.com:btakita/domain--browser--briantakita.git
 [submodule "lib/domain--server"]
 	path = lib/domain--server
 	url = git@github.com:btakita/domain--server.git
