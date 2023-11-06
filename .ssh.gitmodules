@@ -25,6 +25,3 @@
 [submodule "lib/ui--server--briantakita"]
 	path = lib/ui--server--briantakita
 	url = git@github.com:btakita/ui--server--briantakita.git
-[submodule "vendor/van-type-delegate"]
-	path = vendor/van-type-delegate
-	url = git@github.com:btakita/van-type-delegate.git
