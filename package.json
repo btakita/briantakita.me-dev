@@ -4,7 +4,8 @@
   "devDependencies": {
     "@btakita/-briantakita.me-dev-bin": "workspace:*",
     "@changesets/cli": "^2.26.2",
-    "@ctx-core/monorepo": "^20.4.134"
+    "@ctx-core/monorepo": "^20.4.136",
+    "broken-link-checker": "^0.7.8"
   },
   "peerDependencies": {
     "typescript": "^5.2.2"
