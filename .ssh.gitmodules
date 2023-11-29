@@ -4,9 +4,9 @@
 [submodule "app/briantakita.me"]
 	path = app/briantakita.me
 	url = git@github.com:btakita/briantakita.me.git
-[submodule "lib/domain--all--blog"]
-	path = lib/domain--all--blog
-	url = git@github.com:btakita/domain--all--blog.git
+[submodule "lib/domain--any--blog"]
+	path = lib/domain--any--blog
+	url = git@github.com:btakita/domain--any--blog.git
 [submodule "lib/domain--browser--briantakita"]
 	path = lib/domain--browser--briantakita
 	url = git@github.com:btakita/domain--browser--briantakita.git
@@ -16,9 +16,9 @@
 [submodule "lib/domain--server--blog"]
 	path = lib/domain--server--blog
 	url = git@github.com:btakita/domain--server--blog.git
-[submodule "lib/ui--all--blog"]
-	path = lib/ui--all--blog
-	url = git@github.com:btakita/ui--all--blog.git
+[submodule "lib/ui--any--blog"]
+	path = lib/ui--any--blog
+	url = git@github.com:btakita/ui--any--blog.git
 [submodule "lib/ui--server--blog"]
 	path = lib/ui--server--blog
 	url = git@github.com:btakita/ui--server--blog.git
