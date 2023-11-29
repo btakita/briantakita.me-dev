@@ -1,12 +1,12 @@
 # See: https://blog.cloud66.com/running-rails-development-with-a-fake-domain-and-ssl/
 # mkcert my.briantakita.me
 # /etc/hosts
-# 127.0.0.1 my.briantakita.mee
+# 127.0.0.1 my.briantakita.me
 {
   auto_https disable_redirects
 }
-my.censible.co {
-  tls my.censible.co.pem my.censible.co-key.pem
+my.briantakita.me {
+  tls my.briantakita.me.pem my.briantakita.me-key.pem
   @not_static {
     not {
       file {
@@ -18,7 +18,7 @@ my.censible.co {
 #  root * ../apps/web/static
   file_server
 }
-http://my.censible.co {
+http://my.briantakita.me {
   @not_static {
     not {
       file {
@@ -30,7 +30,7 @@ http://my.censible.co {
 #  root * ../apps/web/static
   file_server
 }
-my.censible.co.local {
+my.briantakita.me.local {
   @not_static {
     not {
       file {
