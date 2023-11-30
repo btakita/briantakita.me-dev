@@ -1,4 +1,7 @@
 {
+	"buildCommand": "./.vercel--build.sh",
+	"outputDirectory": "app/briantakita.me/.vercel/output",
+	"installCommand": "./.vercel--install.sh",
 	"rewrites": [
 		{
 			"source": "/assets/:path*",
