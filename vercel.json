@@ -2,6 +2,13 @@
 	"installCommand": "./.vercel--install.sh",
 	"outputDirectory": "./app/briantakita.me/.vercel/output/static",
 	"buildCommand": "./.vercel--build.sh",
+	"functions": {
+		"api/render": {
+			"runtime": "nodejs",
+			"memory": 128,
+			"maxDuration": 30
+		}
+	},
 	"rewrites": [
 		{
 			"source": "/assets/:path*",
