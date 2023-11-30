@@ -15,7 +15,7 @@
 			"destination": "https://usc1.contabostorage.com/69c4039dd12c4f978c6bba1af9b0bf16%3Aassets.briantakita.me/:path*"
 		},
 		{
-			"source": "/linkument",
+			"source": "/links",
 			"destination": "/api/render"
 		}
 	]
