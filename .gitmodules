@@ -1,0 +1,30 @@
+[submodule "app/assets.briantakita.me"]
+	path = app/assets.briantakita.me
+	url = https://github.com/btakita/assets.briantakita.me.git
+[submodule "app/briantakita.me"]
+	path = app/briantakita.me
+	url = https://github.com/btakita/briantakita.me.git
+[submodule "lib/domain--any--blog"]
+	path = lib/domain--any--blog
+	url = https://github.com/btakita/domain--any--blog.git
+[submodule "lib/domain--browser--briantakita"]
+	path = lib/domain--browser--briantakita
+	url = https://github.com/btakita/domain--browser--briantakita.git
+[submodule "lib/domain--server"]
+	path = lib/domain--server
+	url = https://github.com/btakita/domain--server.git
+[submodule "lib/domain--server--blog"]
+	path = lib/domain--server--blog
+	url = https://github.com/btakita/domain--server--blog.git
+[submodule "lib/ui--any--blog"]
+	path = lib/ui--any--blog
+	url = https://github.com/btakita/ui--any--blog.git
+[submodule "lib/ui--server--blog"]
+	path = lib/ui--server--blog
+	url = https://github.com/btakita/ui--server--blog.git
+[submodule "lib/ui--server--briantakita"]
+	path = lib/ui--server--briantakita
+	url = https://github.com/btakita/ui--server--briantakita.git
+[submodule "lib/ui--server--linkument"]
+	path = lib/ui--server--linkument
+	url = git@github.com:btakita/ui--server--linkument.git
