@@ -1,8 +1,15 @@
 {
+	"installCommand": "./.vercel--install.sh",
+	"outputDirectory": "./app/briantakita.me/.vercel/output/static",
+	"buildCommand": "./.vercel--build.sh",
 	"rewrites": [
 		{
 			"source": "/assets/:path*",
 			"destination": "https://usc1.contabostorage.com/69c4039dd12c4f978c6bba1af9b0bf16%3Aassets.briantakita.me/:path*"
+		},
+		{
+			"source": "/linkument",
+			"destination": "/api/render"
 		}
 	]
 }
