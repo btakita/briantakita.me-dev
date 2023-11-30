@@ -15,5 +15,8 @@
     "app/*",
     "lib/*",
     "vendor/*"
-  ]
+  ],
+  "dependencies": {
+    "estree-walker": "^3.0.3"
+  }
 }
