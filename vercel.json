@@ -16,8 +16,8 @@
 			"continue": true
 		},
 		{
-			"src": "/.*",
-			"dest": "static"
+			"src": "/(?<path>.*)",
+			"dest": "static/$path"
 		},
 		{
 			"src": "/.*",
