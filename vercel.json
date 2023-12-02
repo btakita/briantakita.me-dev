@@ -2,6 +2,12 @@
 	"installCommand": "./.vercel--install.sh",
 	"outputDirectory": "./app/briantakita.me/.vercel/output",
 	"buildCommand": "./.vercel--build.sh",
+	"functions": {
+		"render": {
+			"memory": 128,
+			"maxDuration": 10
+		}
+	},
 	"routes": [
 		{
 			"src": "/assets/(?<path>.*)",
