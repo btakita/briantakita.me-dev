@@ -6,7 +6,7 @@
 		"api/render": {
 			"runtime": "nodejs",
 			"memory": 128,
-			"maxDuration": 30
+			"maxDuration": 10
 		}
 	},
 	"rewrites": [
