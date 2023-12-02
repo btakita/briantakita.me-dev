@@ -25,3 +25,6 @@
 [submodule "lib/ui--server--briantakita"]
 	path = lib/ui--server--briantakita
 	url = git@github.com:btakita/ui--server--briantakita.git
+[submodule "lib/ui--server--linkument"]
+	path = lib/ui--server--linkument
+	url = git@github.com:linkument/ui--server--linkument.git

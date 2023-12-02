@@ -1,21 +1,12 @@
 {
 	"installCommand": "./.vercel--install.sh",
-	"outputDirectory": "./app/briantakita.me/.vercel/output/static",
+	"outputDirectory": "./app/briantakita.me/.vercel/output",
 	"buildCommand": "./.vercel--build.sh",
-	"functions": {
-		"api/render": {
-			"runtime": "nodejs",
-			"memory": 128,
-			"maxDuration": 10
-		}
-	},
-	"rewrites": [
-		{
-			"source": "/assets/:path*",
-			"destination": "https://usc1.contabostorage.com/69c4039dd12c4f978c6bba1af9b0bf16%3Aassets.briantakita.me/:path*"
-		}
-	],
 	"routes": [
+		{
+			"src": "/assets/(?<path>.*)",
+			"dest": "https://usc1.contabostorage.com/69c4039dd12c4f978c6bba1af9b0bf16%3Aassets.briantakita.me/$path"
+		},
 		{
 			"src": "^/_astro/(.*)$",
 			"headers": {
@@ -24,7 +15,8 @@
 			"continue": true
 		},
 		{
-			"handle": "filesystem"
+			"src": "/.*",
+			"dest": "static"
 		},
 		{
 			"src": "/.*",
