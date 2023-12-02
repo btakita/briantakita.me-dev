@@ -1,2 +1,3 @@
 #!/bin/sh
-sed 's/:/\//g;s/git@/https:\/\//g' .ssh.gitmodules > .gitmodules
+DIR=$(dirname $0)
+sed 's/:/\//g;s/git@/https:\/\//g' $DIR/.ssh.gitmodules > $DIR/.gitmodules

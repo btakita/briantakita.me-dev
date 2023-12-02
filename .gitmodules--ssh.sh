@@ -1,2 +1,3 @@
 #!/bin/sh
-cp .ssh.gitmodules .gitmodules
+DIR=$(dirname $0)
+cp $DIR/.ssh.gitmodules $DIR/.gitmodules
