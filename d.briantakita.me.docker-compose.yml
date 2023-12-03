@@ -1,0 +1,25 @@
+services:
+  www:
+    build:
+      dockerfile: d.briantakita.me.Dockerfile
+    env_file:
+      - .env
+    expose:
+      - "80"
+      - "443"
+      - "4020"
+    labels:
+      - "traefik.enable=true"
+      - "traefik.docker.network=web"
+      - "traefik.http.services.cogov-www.loadbalancer.server.port=4020"
+      - "traefik.http.routers.cogov-www.rule=Host(`${HOST:-cogov.me}`)"
+      - "traefik.http.routers.cogov-www.tls.certresolver=acme"
+      - "traefik.http.middlewares.test-retry.retry.attempts=4"
+      - "traefik.http.middlewares.test-retry.retry.initialinterval=100ms"
+    networks:
+      - web
+    volumes:
+      - .:/app
+networks:
+  web:
+    external: true

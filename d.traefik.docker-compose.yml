@@ -1,0 +1,26 @@
+# See https://dev.to/karvounis/advanced-traefik-configuration-tutorial-tls-dashboard-ping-metrics-authentication-and-more-4doh
+# See https://www.maxcountryman.com/articles/zero-downtime-deployments-with-docker-compose
+services:
+  traefik:
+    image: "traefik:beaufort"
+    container_name: "traefik"
+    ports:
+      - "0.0.0.0:80:80"
+      - "0.0.0.0:443:443"
+    volumes:
+      - "/var/run/docker.sock:/var/run/docker.sock:ro"
+      - "./apps/vps/fs/etc/traefik/traefik.yml:/etc/traefik/traefik.yml"
+      - "./letsencrypt:/letsencrypt"
+    networks:
+      - web
+    healthcheck:
+      # Run traefik healthcheck command
+      # https://doc.traefik.io/traefik/operations/cli/#healthcheck
+      test: ["CMD", "traefik", "healthcheck", "--ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+      start_period: 3s
+networks:
+  web:
+    external: true
