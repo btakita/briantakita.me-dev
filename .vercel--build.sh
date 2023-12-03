@@ -1,3 +1,4 @@
 #!/bin/sh
 pwd
-bun -b run build
+DIR=$(dirname $0)
+(cd $DIR/app/briantakita.me && bun -b run build)
