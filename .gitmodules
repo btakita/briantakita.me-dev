@@ -25,3 +25,6 @@
 [submodule "lib/domain--browser--blog"]
 	path = lib/domain--browser--blog
 	url = git@github.com:btakita/domain--browser--blog.git
+[submodule "lib/ui--browser--blog"]
+	path = lib/ui--browser--blog
+	url = git@github.com:btakita/ui--browser--blog.git
