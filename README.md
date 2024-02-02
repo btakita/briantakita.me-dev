@@ -10,6 +10,7 @@ git submodule init
 git submodule update
 touch .env
 bun i
+assets--download--sync
 ```
 
 ## Development (ssh git submodules)
