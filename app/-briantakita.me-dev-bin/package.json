@@ -4,7 +4,24 @@
   "type": "module",
   "version": "0.0.0",
   "bin": {
-    "tmux-dev": "bin/tmux-dev.sh"
+    "_env__validate": "./bin/_env__validate.sh",
+    "briantakita--docker-compose--build": "bin/briantakita--docker-compose--build.sh",
+    "briantakita--docker-compose--restart": "bin/briantakita--docker-compose--restart.sh",
+    "briantakita--docker-compose--stop": "bin/briantakita--docker-compose--stop.sh",
+    "briantakita--docker-compose--up": "bin/briantakita--docker-compose--up.sh",
+    "briantakita-me--build": "bin/briantakita-me--build.sh",
+    "briantakita-me--docker-compose--rebuild": "bin/briantakita-me--docker-compose--rebuild.sh",
+    "briantakita-me--docker-compose--restart": "bin/briantakita-me--docker-compose--restart.sh",
+    "dev--briantakita--docker-compose--restart": "bin/dev--briantakita--docker-compose--restart.sh",
+    "dev--briantakita--docker-compose--up": "bin/dev--briantakita--docker-compose--up.sh",
+    "dev--briantakita-me--docker-compose--rebuild": "bin/dev--briantakita-me--docker-compose--rebuild.sh",
+    "dev--briantakita-me--docker-compose--restart": "bin/dev--briantakita-me--docker-compose--restart.sh",
+    "docker-compose--init": "bin/docker-compose--init.sh",
+    "tmux-dev": "bin/tmux-dev.sh",
+    "tmux-rename-window": "bin/tmux-rename-window.sh",
+    "traefik--docker-compose--restart": "bin/traefik--docker-compose--restart.sh",
+    "traefik--docker-compose--stop": "bin/traefik--docker-compose--stop.sh",
+    "traefik--docker-compose--up": "bin/traefik--docker-compose--up.sh"
   },
   "devDependencies": {
     "bun-types": "latest"
