@@ -5,4 +5,4 @@ ARG GID
 WORKDIR /app
 EXPOSE 4020
 
-CMD ["bun", "-b", "./app/briantakit.me/dist/server/index.js"]
+CMD ["bun", "-b", "./app/briantakita.me/dist/server/index.js"]
