@@ -13,6 +13,13 @@ bun i
 assets--download--sync
 ```
 
+### Update
+
+```shell
+git fetch && git rebase
+git submodule foreach 'git add . && git reset --hard && git fetch && git rebase'
+```
+
 ## Development (ssh git submodules)
 
 ```sh
