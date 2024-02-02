@@ -1,6 +1,17 @@
 # briantakita.me-dev
 Development monorepo for briantakita.me
 
+## Setup
+
+```shell
+git checkout git@github.com:btakita/briantakita.me-dev.git
+cd briantakita.me-dev
+git submodule init
+git submodule update
+touch .env
+bun i
+```
+
 ## Development (ssh git submodules)
 
 ```sh

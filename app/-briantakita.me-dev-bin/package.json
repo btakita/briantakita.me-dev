@@ -5,6 +5,10 @@
   "version": "0.0.0",
   "bin": {
     "_env__validate": "./bin/_env__validate.sh",
+    "assets--download": "bin/assets--download.sh",
+    "assets--download--sync": "bin/assets--download--sync.sh",
+    "assets--upload": "bin/assets--upload.sh",
+    "assets--upload--sync": "bin/assets--upload--sync.sh",
     "briantakita--docker-compose--build": "bin/briantakita--docker-compose--build.sh",
     "briantakita--docker-compose--restart": "bin/briantakita--docker-compose--restart.sh",
     "briantakita--docker-compose--stop": "bin/briantakita--docker-compose--stop.sh",
