@@ -1,6 +1,12 @@
 {
   "name": "@btakita/briantakita.me-dev",
   "type": "module",
+  "scripts": {
+    "build": "cd ./app/briantakita.me && bun run build",
+    "clear": "cd ./app/briantakita.me && bun clear",
+    "dev": "cd ./app/briantakita.me && bun dev",
+    "start": "cd ./app/briantakita.me && bun start"
+  },
   "devDependencies": {
     "@btakita/-briantakita.me-dev-bin": "workspace:*",
     "@changesets/cli": "^2.27.1",
