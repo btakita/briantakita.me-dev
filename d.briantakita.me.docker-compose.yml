@@ -7,11 +7,11 @@ services:
     expose:
       - "80"
       - "443"
-      - "4020"
+      - "4100"
     labels:
       - "traefik.enable=true"
       - "traefik.docker.network=web"
-      - "traefik.http.services.briantakitame-www.loadbalancer.server.port=4020"
+      - "traefik.http.services.briantakitame-www.loadbalancer.server.port=4100"
       - "traefik.http.routers.briantakitame-www.rule=Host(`${HOST:-briantakita.me}`)"
       - "traefik.http.routers.briantakitame-www.tls.certresolver=acme"
       - "traefik.http.middlewares.test-retry.retry.attempts=4"

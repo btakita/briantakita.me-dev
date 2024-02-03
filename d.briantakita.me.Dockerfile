@@ -4,6 +4,6 @@ ARG UID=1000
 ARG GID
 ENV NODE_ENV=production
 WORKDIR /app
-EXPOSE 4020
+EXPOSE 4100
 
 CMD ["bun", "-b", "./app/briantakita.me/dist/server/index.js"]
