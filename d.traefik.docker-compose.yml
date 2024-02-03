@@ -9,7 +9,7 @@ services:
       - "0.0.0.0:443:443"
     volumes:
       - "/var/run/docker.sock:/var/run/docker.sock:ro"
-      - "./apps/vps/fs/etc/traefik/traefik.yml:/etc/traefik/traefik.yml"
+      - "./app/vps/fs/etc/traefik/traefik.yml:/etc/traefik/traefik.yml"
       - "./letsencrypt:/letsencrypt"
     networks:
       - web

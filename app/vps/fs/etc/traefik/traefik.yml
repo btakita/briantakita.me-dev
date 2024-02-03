@@ -1,0 +1,38 @@
+api:
+  insecure: false
+
+entryPoints:
+  http:
+    address: ":80"
+    http:
+      redirections:
+        entrypoint:
+          to: https
+          scheme: https
+  https:
+    address: ":443"
+    http:
+      tls: true
+
+ping:
+  entryPoint: http
+
+retry:
+
+docker:
+  endpoint: "unix:///var/run/docker.sock"
+  watch: true
+  exposedByDefault: false
+  useBindPortIP: true
+
+providers:
+  docker:
+    network: web
+
+certificatesResolvers:
+  acme:
+    acme:
+      email: brian.takita@gmail.com
+      storage: /letsencrypt/acme.json
+      httpChallenge:
+        entryPoint: http
