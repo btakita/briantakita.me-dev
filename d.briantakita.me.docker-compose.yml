@@ -12,10 +12,14 @@ services:
       - "traefik.enable=true"
       - "traefik.docker.network=web"
       - "traefik.http.services.briantakitame-www.loadbalancer.server.port=4100"
-      - "traefik.http.routers.briantakitame-www.rule=Host(`${HOST:-briantakita.me}`)"
+      - "traefik.http.routers.briantakitame-www.rule=Host(`briantakita.me`) || Host(`www.briantakita.me`)"
       - "traefik.http.routers.briantakitame-www.tls.certresolver=acme"
-      - "traefik.http.middlewares.test-retry.retry.attempts=4"
-      - "traefik.http.middlewares.test-retry.retry.initialinterval=100ms"
+      - "traefik.http.middlewares.briantakitame-www.retry.attempts=4"
+      - "traefik.http.middlewares.briantakitame-www.retry.initialinterval=100ms"
+      - "traefik.http.routers.briantakitame-www.middlewares=briantakitame-www-https-redirect,briantakitame-www-host-redirect"
+      - "traefik.http.middlewares.briantakitame-www-https-redirect.redirectscheme.scheme=https"
+      - "traefik.http.middlewares.briantakitame-www-host-redirect.redirectregex.regex=^https://www.briantakita.me/(.*)"
+      - "traefik.http.middlewares.briantakitame-www-host-redirect.redirectregex.replacement=https://briantakita.me/$${1}"
     networks:
       - web
     volumes:

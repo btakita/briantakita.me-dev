@@ -28,3 +28,6 @@
 [submodule "lib/ui--browser--blog"]
 	path = lib/ui--browser--blog
 	url = git@github.com:btakita/ui--browser--blog.git
+[submodule "lib/domain--server"]
+	path = lib/domain--server
+	url = git@github.com:btakita/domain--server.git
