@@ -11,8 +11,8 @@ git submodule update
 touch .env
 bun i
 assets--download--sync
-briantakita-me--build
-briantakita--docker-compose--build
+app--build
+docker-compose--build
 ```
 
 ### Update
