@@ -6,4 +6,4 @@ ENV NODE_ENV=production
 WORKDIR /app
 EXPOSE 4100
 
-CMD ["bun", "-b", "./app/briantakita.me/dist/server/index.js"]
+CMD ["bun", "-b", "start"]
