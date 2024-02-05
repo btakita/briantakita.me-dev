@@ -15,6 +15,7 @@
     "docker-compose--up": "bin/docker-compose--up.sh",
     "app--build": "bin/app--build.sh",
     "app--docker-compose--rebuild": "bin/app--docker-compose--rebuild.sh",
+    "app--docker-compose--restart": "bin/app--docker-compose--restart.sh",
     "briantakita-me--docker-compose--restart": "bin/briantakita-me--docker-compose--restart.sh",
     "dev--docker-compose--restart": "bin/dev--docker-compose--restart.sh",
     "dev--docker-compose--up": "bin/dev--docker-compose--up.sh",
