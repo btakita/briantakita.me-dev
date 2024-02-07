@@ -31,3 +31,6 @@
 [submodule "lib/ui--server--linkument"]
 	path = lib/ui--server--linkument
 	url = git@github.com:linkument/ui--server--linkument.git
+[submodule "lib/ui--any"]
+	path = lib/ui--any
+	url = git@github.com:rappstack/ui--any.git
