@@ -37,3 +37,6 @@
 [submodule "lib/dev-bin"]
 	path = lib/dev-bin
 	url = git@github.com:btakita/dev-bin.git
+[submodule "lib/domain--browser"]
+	path = lib/domain--browser
+	url = git@github.com:rappstack/domain--browser.git
