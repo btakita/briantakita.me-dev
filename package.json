@@ -7,6 +7,9 @@
     "dev": "cd ./app/briantakita.me && bun dev",
     "start": "cd ./app/briantakita.me && bun start"
   },
+  "dependencies": {
+    "estree-walker": "^3.0.3"
+  },
   "devDependencies": {
     "@btakita/-briantakita.me-dev-bin": "workspace:*",
     "@changesets/cli": "^2.27.1",
@@ -20,8 +23,5 @@
     "app/*",
     "lib/*",
     "vendor/*"
-  ],
-  "dependencies": {
-    "estree-walker": "^3.0.3"
-  }
+  ]
 }
