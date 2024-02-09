@@ -1,26 +1,25 @@
 {
-  "name": "@btakita/briantakita.me-dev",
-  "type": "module",
-  "scripts": {
-    "build": "cd ./app/briantakita.me && bun run build",
-    "clear": "cd ./app/briantakita.me && bun clear",
-    "dev": "cd ./app/briantakita.me && bun dev",
-    "start": "cd ./app/briantakita.me && bun start"
-  },
-  "dependencies": {
-  },
-  "devDependencies": {
-    "@btakita/-briantakita.me-dev-bin": "workspace:*",
-    "@changesets/cli": "^2.27.1",
-    "@ctx-core/monorepo": "^21.4.36",
-    "broken-link-checker": "^0.7.8"
-  },
-  "peerDependencies": {
-    "typescript": "^5.3.3"
-  },
-  "workspaces": [
-    "app/*",
-    "lib/*",
-    "vendor/*"
-  ]
+	"name": "@btakita/briantakita.me-dev",
+	"type": "module",
+	"scripts": {
+		"build": "cd ./app/briantakita.me && bun run build",
+		"clear": "cd ./app/briantakita.me && bun clear",
+		"dev": "cd ./app/briantakita.me && bun dev",
+		"start": "cd ./app/briantakita.me && bun start"
+	},
+	"dependencies": {},
+	"devDependencies": {
+		"@btakita/-briantakita.me-dev-bin": "workspace:*",
+		"@changesets/cli": "^2.27.1",
+		"@ctx-core/monorepo": "^21.4.37",
+		"broken-link-checker": "^0.7.8"
+	},
+	"peerDependencies": {
+		"typescript": "^5.3.3"
+	},
+	"workspaces": [
+		"app/*",
+		"lib/*",
+		"vendor/*"
+	]
 }

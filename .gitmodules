@@ -34,3 +34,6 @@
 [submodule "lib/ui--any"]
 	path = lib/ui--any
 	url = git@github.com:rappstack/ui--any.git
+[submodule "lib/dev-bin"]
+	path = lib/dev-bin
+	url = git@github.com:btakita/dev-bin.git
