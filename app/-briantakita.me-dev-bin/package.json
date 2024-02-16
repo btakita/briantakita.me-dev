@@ -24,6 +24,7 @@
     "docker-compose--init": "bin/docker-compose--init.sh",
     "tmux-dev": "bin/tmux-dev.sh",
     "tmux-rename-window": "bin/tmux-rename-window.sh",
+    "traefik--docker-compose--build": "bin/traefik--docker-compose--build.sh",
     "traefik--docker-compose--restart": "bin/traefik--docker-compose--restart.sh",
     "traefik--docker-compose--stop": "bin/traefik--docker-compose--stop.sh",
     "traefik--docker-compose--up": "bin/traefik--docker-compose--up.sh"
