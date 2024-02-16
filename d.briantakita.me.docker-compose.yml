@@ -26,6 +26,7 @@ services:
       - web
     volumes:
       - .:/app
+    restart: on-failure
 networks:
   web:
     external: true
