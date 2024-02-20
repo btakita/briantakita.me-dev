@@ -1,9 +1,15 @@
 [submodule "app/briantakita.me"]
 	path = app/briantakita.me
 	url = git@github.com:btakita/briantakita.me.git
+[submodule "lib/dev-bin"]
+	path = lib/dev-bin
+	url = git@github.com:btakita/dev-bin.git
 [submodule "lib/domain--any--blog"]
 	path = lib/domain--any--blog
 	url = git@github.com:rappstack/domain--any--blog.git
+[submodule "lib/domain--browser"]
+	path = lib/domain--browser
+	url = git@github.com:rappstack/domain--browser.git
 [submodule "lib/domain--browser--blog"]
 	path = lib/domain--browser--blog
 	url = git@github.com:rappstack/domain--browser--blog.git
@@ -16,12 +22,18 @@
 [submodule "lib/domain--server--blog"]
 	path = lib/domain--server--blog
 	url = git@github.com:rappstack/domain--server--blog.git
+[submodule "lib/ui--any"]
+	path = lib/ui--any
+	url = git@github.com:rappstack/ui--any.git
 [submodule "lib/ui--any--blog"]
 	path = lib/ui--any--blog
 	url = git@github.com:rappstack/ui--any--blog.git
 [submodule "lib/ui--browser--blog"]
 	path = lib/ui--browser--blog
 	url = git@github.com:rappstack/ui--browser--blog.git
+[submodule "lib/ui--server"]
+	path = lib/ui--server
+	url = git@github.com:rappstack/ui--server.git
 [submodule "lib/ui--server--blog"]
 	path = lib/ui--server--blog
 	url = git@github.com:rappstack/ui--server--blog.git
@@ -31,12 +43,3 @@
 [submodule "lib/ui--server--linkument"]
 	path = lib/ui--server--linkument
 	url = git@github.com:linkument/ui--server--linkument.git
-[submodule "lib/ui--any"]
-	path = lib/ui--any
-	url = git@github.com:rappstack/ui--any.git
-[submodule "lib/dev-bin"]
-	path = lib/dev-bin
-	url = git@github.com:btakita/dev-bin.git
-[submodule "lib/domain--browser"]
-	path = lib/domain--browser
-	url = git@github.com:rappstack/domain--browser.git
