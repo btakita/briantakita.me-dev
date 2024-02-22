@@ -12,4 +12,4 @@ tmux split-window -h $SHELL
 tmux send-keys "cd $DIR/app/briantakita.me; bun -b run dev" 'C-m'
 tmux select-pane -t 1
 
-tmux select-window -t 0
+tmux rename-window briantakita
