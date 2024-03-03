@@ -17,7 +17,7 @@ docker-compose--build
 
 ### Update
 
-```shell
+```sh
 git fetch && git rebase
 git submodule foreach 'git add . && git reset --hard && git fetch && git rebase'
 ```

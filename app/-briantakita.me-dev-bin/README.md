@@ -1,5 +1,5 @@
 # @btakita/-dev-bin
 
-```shell
+```sh
 bun tmux-dev
 ```
