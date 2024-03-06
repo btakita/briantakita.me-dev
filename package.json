@@ -11,12 +11,12 @@
 	"devDependencies": {
 		"@btakita/-briantakita.me-dev-bin": "workspace:*",
 		"@changesets/cli": "^2.27.1",
-		"@ctx-core/dev-tools": "^8.3.9",
-		"@ctx-core/monorepo": "^21.4.60",
+		"@ctx-core/dev-tools": "^8.3.10",
+		"@ctx-core/monorepo": "^21.4.62",
 		"broken-link-checker": "^0.7.8"
 	},
 	"peerDependencies": {
-		"typescript": "^5.3.3"
+		"typescript": "^5.4.2"
 	},
 	"workspaces": [
 		"app/*",
