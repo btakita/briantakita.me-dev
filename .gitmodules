@@ -13,9 +13,6 @@
 [submodule "lib/domain--browser--blog"]
 	path = lib/domain--browser--blog
 	url = git@github.com:rappstack/domain--browser--blog.git
-[submodule "lib/domain--browser--briantakita"]
-	path = lib/domain--browser--briantakita
-	url = git@github.com:btakita/domain--browser--briantakita.git
 [submodule "lib/domain--server"]
 	path = lib/domain--server
 	url = git@github.com:rappstack/domain--server.git
@@ -43,3 +40,6 @@
 [submodule "lib/ui--server--linkument"]
 	path = lib/ui--server--linkument
 	url = git@github.com:linkument/ui--server--linkument.git
+[submodule "lib/domain--server--briantakita"]
+	path = lib/domain--server--briantakita
+	url = git@github.com:btakita/domain--server--briantakita.git
