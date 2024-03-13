@@ -46,3 +46,6 @@
 [submodule "lib/snippet--rappstack"]
 	path = lib/snippet--rappstack
 	url = git@github.com:btakita/snippet--rappstack.git
+[submodule "lib/ui--browser"]
+	path = lib/ui--browser
+	url = git@github.com:rappstack/ui--browser.git
