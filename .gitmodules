@@ -19,12 +19,21 @@
 [submodule "lib/domain--server--blog"]
 	path = lib/domain--server--blog
 	url = git@github.com:rappstack/domain--server--blog.git
+[submodule "lib/domain--server--briantakita"]
+	path = lib/domain--server--briantakita
+	url = git@github.com:btakita/domain--server--briantakita.git
+[submodule "lib/snippet--rappstack"]
+	path = lib/snippet--rappstack
+	url = git@github.com:btakita/snippet--rappstack.git
 [submodule "lib/ui--any"]
 	path = lib/ui--any
 	url = git@github.com:rappstack/ui--any.git
 [submodule "lib/ui--any--blog"]
 	path = lib/ui--any--blog
 	url = git@github.com:rappstack/ui--any--blog.git
+[submodule "lib/ui--browser"]
+	path = lib/ui--browser
+	url = git@github.com:rappstack/ui--browser.git
 [submodule "lib/ui--browser--blog"]
 	path = lib/ui--browser--blog
 	url = git@github.com:rappstack/ui--browser--blog.git
@@ -40,12 +49,3 @@
 [submodule "lib/ui--server--linkument"]
 	path = lib/ui--server--linkument
 	url = git@github.com:linkument/ui--server--linkument.git
-[submodule "lib/domain--server--briantakita"]
-	path = lib/domain--server--briantakita
-	url = git@github.com:btakita/domain--server--briantakita.git
-[submodule "lib/snippet--rappstack"]
-	path = lib/snippet--rappstack
-	url = git@github.com:btakita/snippet--rappstack.git
-[submodule "lib/ui--browser"]
-	path = lib/ui--browser
-	url = git@github.com:rappstack/ui--browser.git
