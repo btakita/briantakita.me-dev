@@ -21,7 +21,7 @@ services:
       timeout: 5s
       retries: 3
       start_period: 3s
-    restart: on-failure
+    restart: always
 networks:
   web:
     external: true
