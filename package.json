@@ -17,7 +17,7 @@
 		"broken-link-checker": "^0.7.8"
 	},
 	"peerDependencies": {
-		"typescript": "^5.4.2"
+		"typescript": "^5.4.3"
 	},
 	"workspaces": [
 		"app/*",
