@@ -37,6 +37,12 @@
 [submodule "lib/ui--browser--blog"]
 	path = lib/ui--browser--blog
 	url = git@github.com:rappstack/ui--browser--blog.git
+[submodule "lib/ui--browser--briantakita"]
+	path = lib/ui--browser--briantakita
+	url = git@github.com:btakita/ui--browser--briantakita.git
+[submodule "lib/ui--browser--semantic"]
+	path = lib/ui--browser--semantic
+	url = git@github.com:rappstack/ui--browser--semantic.git
 [submodule "lib/ui--server"]
 	path = lib/ui--server
 	url = git@github.com:rappstack/ui--server.git
@@ -49,6 +55,3 @@
 [submodule "lib/ui--server--linkument"]
 	path = lib/ui--server--linkument
 	url = git@github.com:linkument/ui--server--linkument.git
-[submodule "lib/ui--browser--semantic"]
-	path = lib/ui--browser--semantic
-	url = git@github.com:rappstack/ui--browser--semantic.git
