@@ -12,8 +12,8 @@
 		"@btakita/-briantakita.me-dev-bin": "workspace:*",
 		"@btakita/dev-bin": "workspace:*",
 		"@changesets/cli": "^2.27.1",
-		"@ctx-core/dev-tools": "^8.3.39",
-		"@ctx-core/monorepo": "^21.4.106",
+		"@ctx-core/dev-tools": "^8.3.40",
+		"@ctx-core/monorepo": "^21.4.108",
 		"broken-link-checker": "^0.7.8"
 	},
 	"peerDependencies": {
