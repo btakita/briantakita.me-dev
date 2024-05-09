@@ -13,7 +13,7 @@
 		"@btakita/dev-bin": "workspace:*",
 		"@changesets/cli": "^2.27.1",
 		"@ctx-core/dev-tools": "^8.3.43",
-		"@ctx-core/monorepo": "^21.4.114",
+		"@ctx-core/monorepo": "^21.4.115",
 		"broken-link-checker": "^0.7.8"
 	},
 	"peerDependencies": {
