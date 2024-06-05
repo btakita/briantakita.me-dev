@@ -12,7 +12,7 @@
 		"@btakita/-briantakita.me-dev-bin": "workspace:*",
 		"@btakita/dev-bin": "workspace:*",
 		"@changesets/cli": "^2.27.5",
-		"@ctx-core/dev-tools": "^8.3.51",
+		"@ctx-core/dev-tools": "^8.3.52",
 		"@ctx-core/monorepo": "^21.4.127",
 		"broken-link-checker": "^0.7.8"
 	},
