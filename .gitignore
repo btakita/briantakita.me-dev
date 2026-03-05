@@ -4,6 +4,7 @@ node_modules/
 .gitmodules
 .idea
 .vercel
+.wrangler
 
 bun.lock
 public
