@@ -39,6 +39,7 @@ jobs:
           bun ./prerender.ts
           kill %1
           cp -r dist/browser--dev/* dist/static/
+          cp -r ../../public/assets/* dist/static/
         env:
           ASSETS_BRIANTAKITA_ME__BUCKET_URL: ${{ secrets.ASSETS_BRIANTAKITA_ME__BUCKET_URL }}
           LINKUMENT_PUB__BUCKET_URL: ""
