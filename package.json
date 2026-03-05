@@ -10,7 +10,10 @@
 	},
 	"dependencies": {
 		"baseline-browser-mapping": "^2.10.0",
-		"caniuse-lite": "^1.0.30001776"
+		"caniuse-lite": "^1.0.30001776",
+		"ctx-core": "^7.2.33",
+		"rebuildjs": "^0.70.44",
+		"relysjs": "^1.21.74"
 	},
 	"devDependencies": {
 		"@btakita/-briantakita.me-dev-bin": "workspace:*",
