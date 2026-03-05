@@ -9,6 +9,8 @@
     "assets--download--sync": "bin/assets--download--sync.sh",
     "assets--upload": "bin/assets--upload.sh",
     "assets--upload--sync": "bin/assets--upload--sync.sh",
+    "ctx-core--link": "bin/ctx-core--link.sh",
+    "ctx-core--unlink": "bin/ctx-core--unlink.sh",
     "docker-compose--build": "bin/docker-compose--build.sh",
     "docker-compose--restart": "bin/docker-compose--restart.sh",
     "docker-compose--stop": "bin/docker-compose--stop.sh",

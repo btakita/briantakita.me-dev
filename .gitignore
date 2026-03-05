@@ -10,3 +10,6 @@ public
 letsencrypt
 
 tmp
+
+# Local symlinks (not submodules)
+ctx-core-dev

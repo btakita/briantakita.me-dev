@@ -5,19 +5,26 @@
 		"build": "cd ./app/briantakita.me && bun run build",
 		"clear": "cd ./app/briantakita.me && bun clear",
 		"dev": "cd ./app/briantakita.me && bun dev",
+		"postinstall": "[ -d ctx-core-dev ] && sh ./app/-briantakita.me-dev-bin/bin/ctx-core--link.sh || true",
 		"start": "cd ./app/briantakita.me && bun start"
 	},
-	"dependencies": {},
+	"dependencies": {
+		"baseline-browser-mapping": "^2.10.0",
+		"caniuse-lite": "^1.0.30001776"
+	},
 	"devDependencies": {
 		"@btakita/-briantakita.me-dev-bin": "workspace:*",
 		"@btakita/dev-bin": "workspace:*",
-		"@changesets/cli": "^2.29.7",
-		"@ctx-core/dev-tools": "^8.3.68",
-		"@ctx-core/monorepo": "^21.4.158",
+		"@changesets/cli": "^2.30.0",
+		"@ctx-core/dev-tools": "^8.3.69",
+		"@ctx-core/monorepo": "^21.4.159",
 		"broken-link-checker": "^0.7.8"
 	},
 	"peerDependencies": {
-		"typescript": "*"
+		"typescript": "^5.9.3"
+	},
+	"overrides": {
+		"postcss": "~8.4.49"
 	},
 	"workspaces": [
 		"app/*",
