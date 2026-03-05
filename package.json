@@ -21,7 +21,8 @@
 		"@changesets/cli": "^2.30.0",
 		"@ctx-core/dev-tools": "^8.3.69",
 		"@ctx-core/monorepo": "^21.4.159",
-		"broken-link-checker": "^0.7.8"
+		"broken-link-checker": "^0.7.8",
+		"fdir": "^6.5.0"
 	},
 	"peerDependencies": {
 		"typescript": "^5.9.3"
