@@ -31,21 +31,19 @@ COPY vendor/-noop/package.json vendor/-noop/
 # Install dependencies (skip postinstall ctx-core link since we don't have local ctx-core-dev)
 RUN bun install --frozen-lockfile --ignore-scripts
 
-# Deduplicate nested elysia (1.4.15 lacks mapResponse export needed by relysjs)
-RUN rm -rf node_modules/relysjs/node_modules/elysia
-
 # Copy all source code
 COPY . .
 
 # Download assets from S3 (needed at build time for static imports)
+# app/briantakita.me/public is a symlink to ../../public, so write to public/assets directly
 ARG AWS_ACCESS_KEY_ID
 ARG AWS_SECRET_ACCESS_KEY
 ARG AWS_ENDPOINT_URL=https://usc1.contabostorage.com
 ARG AWS_BUCKET=assets.briantakita.me
 RUN apt-get update -qq && apt-get install -y -qq awscli > /dev/null 2>&1 \
-    && mkdir -p app/briantakita.me/public/assets \
+    && mkdir -p public/assets \
     && AWS_ACCESS_KEY_ID=$AWS_ACCESS_KEY_ID AWS_SECRET_ACCESS_KEY=$AWS_SECRET_ACCESS_KEY \
-       aws s3 cp s3://$AWS_BUCKET/ app/briantakita.me/public/assets --recursive --endpoint-url $AWS_ENDPOINT_URL \
+       aws s3 cp s3://$AWS_BUCKET/ public/assets --recursive --endpoint-url $AWS_ENDPOINT_URL \
     && apt-get remove -y awscli && apt-get autoremove -y && rm -rf /var/lib/apt/lists/*
 
 # Build the application (needs env vars for static content generation)
