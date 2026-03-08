@@ -18,3 +18,4 @@ ctx-core-dev
 yalc.lock
 
 *.iml
+.agent-doc/
