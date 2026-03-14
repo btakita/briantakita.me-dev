@@ -8,24 +8,24 @@
 		"start": "cd ./app/briantakita.me && bun start"
 	},
 	"dependencies": {
-		"@ctx-core/preprocess": "file:.yalc/@ctx-core/preprocess",
-		"@ctx-core/source-map": "file:.yalc/@ctx-core/source-map",
-		"@rebuildjs/tailwindcss": "file:.yalc/@rebuildjs/tailwindcss",
+		"@ctx-core/preprocess": "^0.2.4",
+		"@ctx-core/source-map": "^0.2.117",
+		"@rebuildjs/tailwindcss": "^0.10.60",
 		"baseline-browser-mapping": "^2.10.0",
 		"caniuse-lite": "^1.0.30001776",
-		"ctx-core": "file:.yalc/ctx-core",
-		"esmcss": "file:.yalc/esmcss",
-		"rebuildjs": "file:.yalc/rebuildjs",
-		"relementjs": "file:.yalc/relementjs",
-		"relysjs": "file:.yalc/relysjs",
-		"rmemo": "file:.yalc/rmemo"
+		"ctx-core": "^7.2.34",
+		"esmcss": "^0.2.15",
+		"rebuildjs": "^0.70.45",
+		"relementjs": "^0.80.33",
+		"relysjs": "^1.21.75",
+		"rmemo": "^0.51.34"
 	},
 	"devDependencies": {
 		"@btakita/-briantakita.me-dev-bin": "workspace:*",
 		"@btakita/dev-bin": "workspace:*",
 		"@changesets/cli": "^2.30.0",
-		"@ctx-core/dev-tools": "file:.yalc/@ctx-core/dev-tools",
-		"@ctx-core/monorepo": "file:.yalc/@ctx-core/monorepo",
+		"@ctx-core/dev-tools": "^8.3.69",
+		"@ctx-core/monorepo": "^21.4.161",
 		"broken-link-checker": "^0.7.8",
 		"fdir": "^6.5.0"
 	},
