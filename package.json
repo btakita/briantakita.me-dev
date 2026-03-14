@@ -17,7 +17,7 @@
 		"esmcss": "^0.2.15",
 		"rebuildjs": "^0.70.45",
 		"relementjs": "^0.80.33",
-		"relysjs": "^1.21.75",
+		"rhonojs": "^0.1.1",
 		"rmemo": "^0.51.34"
 	},
 	"devDependencies": {
