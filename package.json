@@ -5,7 +5,8 @@
 		"build": "cd ./app/briantakita.me && bun run build",
 		"clear": "cd ./app/briantakita.me && bun clear",
 		"dev": "cd ./app/briantakita.me && bun dev",
-		"start": "cd ./app/briantakita.me && bun start"
+		"start": "cd ./app/briantakita.me && bun start",
+		"generate": "cd ./app/briantakita.me && bun generate"
 	},
 	"dependencies": {
 		"@ctx-core/preprocess": "^0.2.4",
