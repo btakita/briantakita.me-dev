@@ -21,7 +21,7 @@
         "@btakita/-briantakita.me-dev-bin": "workspace:*",
         "@btakita/dev-bin": "workspace:*",
         "@changesets/cli": "^2.30.0",
-        "@ctx-core/dev-tools": "^8.3.69",
+        "@ctx-core/dev-tools": "8.3.72",
         "@ctx-core/monorepo": "^21.4.161",
         "broken-link-checker": "^0.7.8",
         "fdir": "^6.5.0",
@@ -194,6 +194,7 @@
         "ctx-core": "^7.2.32",
         "drizzle-kit": "^0.31.9",
         "drizzle-orm": "^0.45.1",
+        "hono": "^4.0.0",
         "rebuildjs": "^0.70.43",
         "rhonojs": "^0.1.1",
         "rmemo": "^0.51.32",
@@ -216,7 +217,7 @@
         "hono": "^4.0.0",
         "react": "^19.2.4",
         "relementjs": "^0.80.31",
-        "rhonojs": "*",
+        "rhonojs": "^0.1.1",
         "rmemo": "^0.51.32",
         "satori": "^0.24.1",
         "satori-html": "^0.3.2",
@@ -366,8 +367,8 @@
       "dependencies": {
         "ctx-core": "^7.2.32",
         "marked": "^17.0.4",
-        "rebuildjs": "^0.70.37",
         "relementjs": "^0.80.31",
+        "rhonojs": "^0.1.1",
       },
       "devDependencies": {
         "bun-types": "latest",
@@ -388,8 +389,8 @@
         "@rappstack/ui--any--blog": "workspace:*",
         "@rappstack/ui--server": "workspace:*",
         "ctx-core": "^7.2.32",
-        "rebuildjs": "^0.70.37",
         "relementjs": "^0.80.31",
+        "rhonojs": "^0.1.1",
       },
       "devDependencies": {
         "bun-types": "latest",
@@ -507,13 +508,13 @@
 
     "@ctx-core/ctx-core-package-tools": ["@ctx-core/ctx-core-package-tools@8.2.27", "", { "dependencies": { "dir-glob": "^3.0.1", "path-type": "^6.0.0" }, "bin": { "package-refactor": "bin/package-refactor.mjs", "symlink_src_assets_to_dist": "bin/symlink_src_assets_to_dist.sh" } }, "sha512-r1r4ShVPLw9JPUVHdRS+osV8SPc6zzpSShgCmUE3ou7F6h4+1Qk8gebdUko3DG1r/Qw5OupqShlD6+Q1aFHYgA=="],
 
-    "@ctx-core/dev-tools": ["@ctx-core/dev-tools@8.3.70", "", { "dependencies": { "@ctx-core/dir": "*", "ctx-core": "*", "readline": "^1.3.0", "tsx": "^4.21.0" }, "bin": { "generate-index-js": "bin/generate-index-js.js" } }, "sha512-WP8rRattBGtGYioPc9um0OAAzsiVE+gmxhYW7qkqD8ofUErBBCOBYXJUaiT7SjoYBv9j7zX/y7E3NuLYN/Wxpg=="],
+    "@ctx-core/dev-tools": ["@ctx-core/dev-tools@8.3.72", "", { "dependencies": { "@ctx-core/dir": "*", "ctx-core": "*", "readline": "^1.3.0", "tsx": "^4.21.0" }, "bin": { "generate-index-js": "bin/generate-index-js.js" } }, "sha512-+gSjOL+tPRUQ+LSvfAwf2IwgIvrDrOdbskuojfMPWvYcsqaY/ix6qXKJAWMBRZvuJN2tCfugP8nuSPK4WVuogw=="],
 
     "@ctx-core/dir": ["@ctx-core/dir@8.2.209", "", { "dependencies": { "ctx-core": "^7.2.32" } }, "sha512-Qr+QsHYOH3o+xjNY73in2FyBZQT6i/G3mm9N8TUuRm6W49h5jfkcB31uhDWYnKgk46cAF06dRIBvKx36l9IRhw=="],
 
     "@ctx-core/fs": ["@ctx-core/fs@1.5.89", "", { "dependencies": { "ctx-core": "^7.2.32" } }, "sha512-KM+kS2AfSIwjzaJjqBiGHe0hqY4SX8Jq8Pyblx7zYAoC122sCAbLuNM8wK4YIKH6gZPU2lxWSAdHUKiY3AbwhA=="],
 
-    "@ctx-core/monorepo": ["@ctx-core/monorepo@21.4.161", "", { "dependencies": { "@ctx-core/child_process": "*", "@ctx-core/ctx-core-package-tools": "*", "@ctx-core/fs": "*", "@ctx-core/package": "*", "@types/node": "^25.3.3", "ctx-core": "*", "detect-indent": "^7.0.2", "dir-glob": "^3.0.1", "js-yaml": "^4.1.1", "ora": "9.3.0", "path-type": "^6.0.0", "semver": "^7.7.4", "tiny-glob": "^0.2.9", "tsx": "^4.21.0" }, "bin": { "changeset-COMMIT_EDITMSG": "bin/changeset-COMMIT_EDITMSG.sh", "changeset-version-COMMIT_EDITMSG": "bin/changeset-version-COMMIT_EDITMSG.sh", "CHANGELOG-diff-COMMIT_EDITMSG": "bin/CHANGELOG-diff-COMMIT_EDITMSG.sh", "ensure.sh": "bin/ensure.sh", "export_files_in_dir": "bin/export_files_in_dir.mjs", "find--top-level-directories--npm-files": "bin/find--top-level-directories--npm-files.sh", "git-commit--submodules": "bin/git-commit--submodules.sh", "monorepo_npm__dependencies__update": "bin/monorepo_npm__dependencies__update.mjs", "monorepo_npm__version__sync": "bin/monorepo_npm__version__sync.mjs", "monorepo_pnpm__circular_dependencies__detect": "bin/monorepo_pnpm__circular_dependencies__detect.mjs", "monorepo_pnpm__dependencies__update": "bin/monorepo_pnpm__dependencies__update.mjs", "package-manifest-changeset": "bin/package-manifest-changeset.sh", "package-manifest-COMMIT_EDITMSG": "bin/package-manifest-COMMIT_EDITMSG.sh", "npm-copy--package-bin-config": "bin/npm-copy--package-bin-config.sh", "npm-publish--force": "bin/publish--force.sh", "package_json_exports_directory_list": "bin/package_json_exports_directory_list.mjs", "package_json_files_directory_list": "bin/package_json_files_directory_list.mjs", "publish--force": "bin/publish--force.sh", "pwd--packages": "bin/pwd--packages.sh", "recursive-surrounding-trim-COMMIT_EDITMSG": "bin/recursive-surrounding-trim-COMMIT_EDITMSG.sh", "recursive-git-commit": "bin/recursive-git-commit.sh", "refresh-ctx-core-package.json": "bin/refresh-ctx-core-package.json.mjs", "run-parallel--workspaces": "bin/run-parallel--workspaces.mjs", "sort-packages": "bin/sort-packages.mjs", "sort-packages-exec": "bin/sort-packages-exec.mjs", "surrounding-trim": "bin/surrounding-trim.sh", "tsc-clean--packages": "bin/tsc-clean--packages.sh", "update-npm-packages": "bin/update-npm-packages.sh", "update-git-module--github--ssh": "bin/update-git-module--github--ssh.sh" } }, "sha512-PpiEvUhKqfaO+gWxMGo3B8aEO6iWuJoV1TKzq5RzDEPKZyzUYEDsm2RxZvqLvTUkHUQV9mAXuoqhQ44Pe5o+mQ=="],
+    "@ctx-core/monorepo": ["@ctx-core/monorepo@21.4.162", "", { "dependencies": { "@ctx-core/child_process": "*", "@ctx-core/ctx-core-package-tools": "*", "@ctx-core/fs": "*", "@ctx-core/package": "*", "@types/node": "^25.3.3", "ctx-core": "*", "detect-indent": "^7.0.2", "dir-glob": "^3.0.1", "js-yaml": "^4.1.1", "ora": "9.3.0", "path-type": "^6.0.0", "semver": "^7.7.4", "tiny-glob": "^0.2.9", "tsx": "^4.21.0" }, "bin": { "changeset-COMMIT_EDITMSG": "bin/changeset-COMMIT_EDITMSG.sh", "changeset-version-COMMIT_EDITMSG": "bin/changeset-version-COMMIT_EDITMSG.sh", "CHANGELOG-diff-COMMIT_EDITMSG": "bin/CHANGELOG-diff-COMMIT_EDITMSG.sh", "ensure.sh": "bin/ensure.sh", "export_files_in_dir": "bin/export_files_in_dir.mjs", "find--top-level-directories--npm-files": "bin/find--top-level-directories--npm-files.sh", "git-commit--submodules": "bin/git-commit--submodules.sh", "monorepo_npm__dependencies__update": "bin/monorepo_npm__dependencies__update.mjs", "monorepo_npm__version__sync": "bin/monorepo_npm__version__sync.mjs", "monorepo_pnpm__circular_dependencies__detect": "bin/monorepo_pnpm__circular_dependencies__detect.mjs", "monorepo_pnpm__dependencies__update": "bin/monorepo_pnpm__dependencies__update.mjs", "monorepo_yalc__publish__all": "bin/monorepo_yalc__publish__all.mjs", "package-manifest-changeset": "bin/package-manifest-changeset.sh", "package-manifest-COMMIT_EDITMSG": "bin/package-manifest-COMMIT_EDITMSG.sh", "npm-copy--package-bin-config": "bin/npm-copy--package-bin-config.sh", "npm-publish--force": "bin/publish--force.sh", "package_json_exports_directory_list": "bin/package_json_exports_directory_list.mjs", "package_json_files_directory_list": "bin/package_json_files_directory_list.mjs", "publish--force": "bin/publish--force.sh", "pwd--packages": "bin/pwd--packages.sh", "recursive-surrounding-trim-COMMIT_EDITMSG": "bin/recursive-surrounding-trim-COMMIT_EDITMSG.sh", "recursive-git-commit": "bin/recursive-git-commit.sh", "refresh-ctx-core-package.json": "bin/refresh-ctx-core-package.json.mjs", "run-parallel--workspaces": "bin/run-parallel--workspaces.mjs", "sort-packages": "bin/sort-packages.mjs", "sort-packages-exec": "bin/sort-packages-exec.mjs", "surrounding-trim": "bin/surrounding-trim.sh", "tsc-clean--packages": "bin/tsc-clean--packages.sh", "update-npm-packages": "bin/update-npm-packages.sh", "update-git-module--github--ssh": "bin/update-git-module--github--ssh.sh" } }, "sha512-cwctwkGXBclOXiCirbM7KqbosK+U/AQzIx1KHulnOGUnVrehUZvgij4xjb4brz9RDrQhFxghMCAAiX7cUCUwzw=="],
 
     "@ctx-core/package": ["@ctx-core/package@9.3.226", "", { "dependencies": { "ctx-core": "^7.2.32", "import-meta-resolve": "^4.1.0", "semver": "^7.6.3" }, "bin": { "verify-node-version": "bin/verify-node-version.mjs", "verify-version-node.js": "bin/verify-node-version.mjs" } }, "sha512-9BxiPuwzQq/7uhH/yk/KJrOL/esXld+ukF4aPSS8gRA13aw66S6SoLGw2JdaeyQPqnuvGDXS/LR+I/lTDtufBw=="],
 
@@ -705,7 +706,7 @@
 
     "base64-js": ["base64-js@0.0.8", "", {}, "sha512-3XSA2cR/h/73EzlXXdU6YNycmYI7+kicTxks4eJg2g39biHR84slg2+des+p7iHYhbRg/udIS4TD53WabcOUkw=="],
 
-    "baseline-browser-mapping": ["baseline-browser-mapping@2.10.0", "", { "bin": { "baseline-browser-mapping": "dist/cli.cjs" } }, "sha512-lIyg0szRfYbiy67j9KN8IyeD7q7hcmqnJ1ddWmNt19ItGpNN64mnllmxUNFIOdOm6by97jlL6wfpTTJrmnjWAA=="],
+    "baseline-browser-mapping": ["baseline-browser-mapping@2.10.8", "", { "bin": { "baseline-browser-mapping": "dist/cli.cjs" } }, "sha512-PCLz/LXGBsNTErbtB6i5u4eLpHeMfi93aUv5duMmj6caNu6IphS4q6UevDnL36sZQv9lrP11dbPKGMaXPwMKfQ=="],
 
     "better-path-resolve": ["better-path-resolve@1.0.0", "", { "dependencies": { "is-windows": "^1.0.0" } }, "sha512-pbnl5XzGBdrFU/wT4jqmJVPn2B6UHPBOhzMQkY/SPUPB6QtUXtmBHBIwCbXJol93mOpGMnQyP/+BB19q04xj7g=="],
 
@@ -749,7 +750,7 @@
 
     "caniuse-api": ["caniuse-api@3.0.0", "", { "dependencies": { "browserslist": "^4.0.0", "caniuse-lite": "^1.0.0", "lodash.memoize": "^4.1.2", "lodash.uniq": "^4.5.0" } }, "sha512-bsTwuIg/BZZK/vreVTYYbSWoe2F+71P7K5QGEX+pT250DZbfU1MQ5prOKpPR+LL6uWKK3KMwMCAS74QB3Um1uw=="],
 
-    "caniuse-lite": ["caniuse-lite@1.0.30001776", "", {}, "sha512-sg01JDPzZ9jGshqKSckOQthXnYwOEP50jeVFhaSFbZcOy05TiuuaffDOfcwtCisJ9kNQuLBFibYywv2Bgm9osw=="],
+    "caniuse-lite": ["caniuse-lite@1.0.30001778", "", {}, "sha512-PN7uxFL+ExFJO61aVmP1aIEG4i9whQd4eoSCebav62UwDyp5OHh06zN4jqKSMePVgxHifCw1QJxdRkA1Pisekg=="],
 
     "canonicalize": ["canonicalize@2.1.0", "", { "bin": { "canonicalize": "bin/canonicalize.js" } }, "sha512-F705O3xrsUtgt98j7leetNhTWPe+5S72rlL5O4jA1pKqBVQ/dT1O1D6PFxmSXvc0SUOinWS57DKx0I3CHrXJHQ=="],
 
@@ -1551,18 +1552,6 @@
 
     "zod": ["zod@4.3.6", "", {}, "sha512-rftlrkhHZOcjDwkGlnUtZZkvaPHCsDATp4pGpuOOMDaTdDDXF91wuVDJoWoPsKX/3YPQ5fHuF3STjcYyKr+Qhg=="],
 
-    "@btakita/dev-bin/@ctx-core/source-map": ["@ctx-core/source-map@0.2.115", "", { "dependencies": { "ctx-core": "^7.2.32", "source-map": "^0.7.4" } }, "sha512-fGqUsCDpZijoW67f0n6MENq3nqPmwfPbuP0p2kN/xVgh3KdWaRi1cY5JQ3fI9Iu8b7v7X1JoY0X1V1ndGwszMg=="],
-
-    "@btakita/dev-bin/ctx-core": ["ctx-core@7.2.33", "", {}, "sha512-kaGhKPSgK5Hiaij4+KCoXXblStVqvo1co0MnU9ZMNRDDdaXerbpndJNE3fjO26pxiAjndTEXVWuIg2Uj9GoPQg=="],
-
-    "@btakita/snippet--rappstack/ctx-core": ["ctx-core@7.2.33", "", {}, "sha512-kaGhKPSgK5Hiaij4+KCoXXblStVqvo1co0MnU9ZMNRDDdaXerbpndJNE3fjO26pxiAjndTEXVWuIg2Uj9GoPQg=="],
-
-    "@btakita/snippet--rappstack/rebuildjs": ["rebuildjs@0.70.44", "", { "dependencies": { "ctx-core": "*", "elysia": "^1.4.27", "esbuild": "^0.27.3", "fdir": "^6.5.0", "picomatch": "^4.0.3" } }, "sha512-+wMw5LFwJP8KDhUtFxPu2LEcJa4/DxBbPBbVGK6pBMS1uIS5avHsU+0gAFxIhYNqqV1Leubl8fsxDxgHNFPuaQ=="],
-
-    "@btakita/snippet--rappstack/relementjs": ["relementjs@0.80.31", "", { "dependencies": { "ctx-core": "^7.2.32", "hyop": "^0.3.15" } }, "sha512-/GFdMRbd7qR2bzWEhoSbZXZM6vcLXUPnMqgdijyIr7KnTEvUP3mzjWN8UalIjqWeMTAIPQ1fERfrYZYzhpCYDg=="],
-
-    "@btakita/ui--browser--semantic/ctx-core": ["ctx-core@7.2.33", "", {}, "sha512-kaGhKPSgK5Hiaij4+KCoXXblStVqvo1co0MnU9ZMNRDDdaXerbpndJNE3fjO26pxiAjndTEXVWuIg2Uj9GoPQg=="],
-
     "@changesets/apply-release-plan/detect-indent": ["detect-indent@6.1.0", "", {}, "sha512-reYkTUJAZb9gUuZ2RvVCNhVHdg62RHnJ7WJl8ftMi4diZ6NWlciOzQN88pUhSELEwflJht4oQDv0F0BMlwaYtA=="],
 
     "@ctx-core/child_process/ctx-core": ["ctx-core@7.2.32", "", {}, "sha512-YJKuQR+L2EeEwmU5OR/B7RlNcT0k8kdnPTHHt+58j6+8X0xBDfqgTvjyY7dPl989/mlE4DdpYlaspEPv487kPA=="],
@@ -1708,12 +1697,6 @@
     "wrap-ansi-cjs/ansi-styles": ["ansi-styles@4.3.0", "", { "dependencies": { "color-convert": "^2.0.1" } }, "sha512-zbB9rCJAT1rbjiVDb2hqKFHNYLxgtk8NURxZ3IZwD3F6NtxbXZQCnnSi1Lkx+IDohdPlFp222wVALIheZJQSEg=="],
 
     "wrap-ansi-cjs/string-width": ["string-width@4.2.3", "", { "dependencies": { "emoji-regex": "^8.0.0", "is-fullwidth-code-point": "^3.0.0", "strip-ansi": "^6.0.1" } }, "sha512-wKyQRQpjJ0sIp62ErSZdGsjMJWsap5oRNihHhu6G7JVO/9jIB6UyevL+tXuOqrng8j/cxKTWyWUwvSTriiZz/g=="],
-
-    "@btakita/dev-bin/@ctx-core/source-map/ctx-core": ["ctx-core@7.2.32", "", {}, "sha512-YJKuQR+L2EeEwmU5OR/B7RlNcT0k8kdnPTHHt+58j6+8X0xBDfqgTvjyY7dPl989/mlE4DdpYlaspEPv487kPA=="],
-
-    "@btakita/snippet--rappstack/rebuildjs/ctx-core": ["ctx-core@7.2.32", "", {}, "sha512-YJKuQR+L2EeEwmU5OR/B7RlNcT0k8kdnPTHHt+58j6+8X0xBDfqgTvjyY7dPl989/mlE4DdpYlaspEPv487kPA=="],
-
-    "@btakita/snippet--rappstack/relementjs/ctx-core": ["ctx-core@7.2.32", "", {}, "sha512-YJKuQR+L2EeEwmU5OR/B7RlNcT0k8kdnPTHHt+58j6+8X0xBDfqgTvjyY7dPl989/mlE4DdpYlaspEPv487kPA=="],
 
     "@isaacs/cliui/strip-ansi/ansi-regex": ["ansi-regex@6.2.2", "", {}, "sha512-Bq3SmSpyFHaWjPk8If9yc6svM8c56dB5BAtW4Qbw5jHTwwXXcTLoRMkpDJp6VL0XzlWaCHTXrkFURMYmD0sLqg=="],
 
