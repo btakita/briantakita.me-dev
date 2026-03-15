@@ -50,3 +50,24 @@ jobs:
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           command: pages deploy app/briantakita.me/dist/static --project-name briantakita-me
+
+      - name: Smoke test live site
+        run: |
+          echo "Waiting for deployment to propagate..."
+          sleep 15
+          for path in "/" "/about" "/posts" "/robots.txt"; do
+            status=$(curl -sL -o /dev/null -w "%{http_code}" "https://briantakita.me${path}")
+            if [ "$status" != "200" ]; then
+              echo "FAIL ($status): https://briantakita.me${path}"
+              exit 1
+            fi
+            echo "OK ($status): https://briantakita.me${path}"
+          done
+          # Asset smoke test
+          status=$(curl -sfL -o /dev/null -w "%{http_code}" "https://assets.briantakita.me/images/briantakita-og.jpg")
+          if [ "$status" != "200" ]; then
+            echo "FAIL ($status): asset image check"
+            exit 1
+          fi
+          echo "OK ($status): https://assets.briantakita.me/images/briantakita-og.jpg"
+          echo "Smoke test passed."
