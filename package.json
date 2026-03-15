@@ -16,9 +16,9 @@
 		"caniuse-lite": "^1.0.30001778",
 		"ctx-core": "^7.2.34",
 		"esmcss": "^0.2.15",
-		"rebuildjs": "^0.70.45",
+		"rebuildjs": "^0.71.0",
 		"relementjs": "^0.80.33",
-		"rhonojs": "^0.1.1",
+		"rhonojs": "^0.1.2",
 		"rmemo": "^0.51.34"
 	},
 	"devDependencies": {
