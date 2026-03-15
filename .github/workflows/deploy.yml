@@ -40,6 +40,7 @@ jobs:
           kill %1
           cp -r dist/browser--dev/* dist/static/
           cp -r ../../public/assets/* dist/static/
+          cp ../../_redirects dist/static/
         env:
           ASSET_BASE_URL: ${{ secrets.ASSET_BASE_URL }}
           ASSETS_BRIANTAKITA_ME__BUCKET_URL: ${{ secrets.ASSETS_BRIANTAKITA_ME__BUCKET_URL }}
