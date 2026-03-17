@@ -102,7 +102,7 @@
         "picocolors": "^1.1.1",
         "rebuildjs": "^0.71.0",
         "relementjs": "^0.80.33",
-        "rhonojs": "^0.1.2",
+        "rhonojs": "^0.1.3",
         "tailwindcss": "^4.2.1",
       },
       "devDependencies": {
@@ -1152,7 +1152,7 @@
 
     "reusify": ["reusify@1.1.0", "", {}, "sha512-g6QUff04oZpHs0eG5p83rFLhHeV00ug/Yf9nZM6fLeUrPguBTkTQOdpAWWspMh55TZfVQDPaN3NQJfbVRAxdIw=="],
 
-    "rhonojs": ["rhonojs@0.1.2", "", { "dependencies": { "ctx-core": "*", "hono": "^4.0.0", "rebuildjs": "*" }, "peerDependencies": { "esbuild": "^0.27.3" } }, "sha512-MA6ExDWYg0NDBBo+ksHegHLknAxtYMZ8nXcaJd5a5zCvm1blld7W0H5g5nrop458dHNS/ePgB5F1A4f7Tch9Pw=="],
+    "rhonojs": ["rhonojs@0.1.3", "", { "dependencies": { "ctx-core": "*", "hono": "^4.0.0", "rebuildjs": "*" }, "peerDependencies": { "esbuild": "^0.27.3" } }, "sha512-OZMWn7+DNWVdpPTNJ2M4xkz2dvvM88sOhezS0BRz1kdY10KxjlW2bgZKll4Epemh50aSdLL/lLhkLkLVjspW5Q=="],
 
     "rmemo": ["rmemo@0.51.34", "", { "dependencies": { "ctx-core": "*" } }, "sha512-/8NSJZrHYg31kV/Q/yB7TKyfV92DCobHfNYEF+O3nQzMDNnx8iills/P9gHWgXysecT+jr06X3+1W7WRf0GSpg=="],
 
