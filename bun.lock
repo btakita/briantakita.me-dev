@@ -440,7 +440,7 @@
 
     "@rappstack/ui--browser": ["@rappstack/ui--browser@0.1.1", "", { "dependencies": { "ctx-core": "^7.2.27" }, "peerDependencies": { "typescript": "^5.5.3" } }, "sha512-jPo7OrcpQN0ESpnX3QAaGRBFVx1eUoHkBQZ8Ibw6ZlYpfBTV6TM/0HkmP9dI/ElLLyyEIMDCMlE8sPXf6MXWhw=="],
 
-    "@rappstack/ui--browser--blog": ["@rappstack/ui--browser--blog@0.1.0", "", { "dependencies": { "@rappstack/domain--any--blog": "^0.1.0", "@rappstack/domain--browser": "^0.1.0", "@rappstack/ui--any--blog": "^0.1.0", "ctx-core": "^7.2.27", "fuse.js": "^7.0.0", "relementjs": "^0.80.26", "rmemo": "^0.51.27" }, "peerDependencies": { "typescript": "^5.5.3" } }, "sha512-yKECaCvTFfQ1y54HOv65XlmeJlToIVrlLsrsFL9m5xIv7hx2Rl4ffjK24+PiukWgM+4v8OxI8vcJfTK7EemXrQ=="],
+    "@rappstack/ui--browser--blog": ["@rappstack/ui--browser--blog@0.1.2", "", { "dependencies": { "@rappstack/domain--any--blog": "^0.1.0", "@rappstack/domain--browser": "^0.1.0", "@rappstack/ui--any--blog": "^0.1.0", "ctx-core": "^7.2.32", "fuse.js": "^7.1.0", "relementjs": "^0.80.31", "rmemo": "^0.51.32" }, "peerDependencies": { "typescript": "*" } }, "sha512-sY1Iseqt7Q8r9ZHjvOzJzYh9YAZIJoo0tZgaT+kHC7l/RqUOUlXQii/o7gr88CuOSlULkj4pgONaXC61ZDOUXw=="],
 
     "@rappstack/ui--server": ["@rappstack/ui--server@0.1.1", "", { "dependencies": { "ctx-core": "^7.2.32", "marked": "^17.0.4", "relementjs": "^0.80.31", "rhonojs": "^0.1.1" }, "peerDependencies": { "typescript": "*" } }, "sha512-Mh6qLKKwp9nmsu7/9r9IYfeMqSJr7Euf3iJITqHGHeP6/Sz9g4ZCMmKrwEAlM6qyA6yMKw/5NxtEDv1kRZ8j7g=="],
 
