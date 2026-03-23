@@ -11,7 +11,9 @@
 	"dependencies": {
 		"@ctx-core/preprocess": "^0.2.4",
 		"@ctx-core/source-map": "^0.2.117",
+		"@rappstack/domain--any--blog": "file:.yalc/@rappstack/domain--any--blog",
 		"@rappstack/domain--server": "^0.1.0",
+		"@rappstack/domain--server--blog": "file:.yalc/@rappstack/domain--server--blog",
 		"@rebuildjs/tailwindcss": "^0.10.60",
 		"baseline-browser-mapping": "^2.10.8",
 		"caniuse-lite": "^1.0.30001778",
