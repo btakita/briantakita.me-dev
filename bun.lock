@@ -264,6 +264,8 @@
     },
   },
   "overrides": {
+    "@rappstack/domain--any--blog": "0.1.4",
+    "@rappstack/domain--server--blog": "0.1.4",
     "esbuild": "^0.27.3",
     "postcss": "~8.4.49",
   },
