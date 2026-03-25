@@ -18,3 +18,5 @@ yalc.lock
 
 *.iml
 .agent-doc/
+.yalc/
+yalc.lock
