@@ -7,9 +7,6 @@
 [submodule "lib/domain--server--briantakita"]
 	path = lib/domain--server--briantakita
 	url = git@github.com:btakita/domain--server--briantakita.git
-[submodule "lib/snippet--rappstack"]
-	path = lib/snippet--rappstack
-	url = git@github.com:btakita/snippet--rappstack.git
 [submodule "lib/ui--browser--briantakita"]
 	path = lib/ui--browser--briantakita
 	url = git@github.com:btakita/ui--browser--briantakita.git
