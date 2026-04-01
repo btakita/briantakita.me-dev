@@ -31,6 +31,9 @@ jobs:
           AWS_ENDPOINT_URL: ${{ secrets.AWS_ENDPOINT_URL }}
           AWS_BUCKET: ${{ secrets.AWS_BUCKET }}
 
+      - name: Regenerate post index
+        run: cd app/briantakita.me && bun post/index.generate.ts
+
       - name: Build and prerender
         run: |
           cd app/briantakita.me
