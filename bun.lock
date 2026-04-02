@@ -170,26 +170,6 @@
         "typescript": "*",
       },
     },
-    "lib/snippet--rappstack": {
-      "name": "@btakita/snippet--rappstack",
-      "version": "0.0.0",
-      "dependencies": {
-        "@rappstack/domain--server": "^0.1.1",
-        "@rappstack/ui--browser": "^0.1.1",
-        "@rappstack/ui--server": "^0.1.1",
-        "ctx-core": "^7.2.32",
-        "rebuildjs": "^0.70.43",
-        "relementjs": "^0.80.31",
-        "rhonojs": "^0.1.1",
-      },
-      "devDependencies": {
-        "bun-types": "latest",
-        "schema-dts": "^1.1.5",
-      },
-      "peerDependencies": {
-        "typescript": "*",
-      },
-    },
     "lib/ui--browser--briantakita": {
       "name": "@btakita/ui--browser--briantakita",
       "version": "0.0.0",
@@ -285,8 +265,6 @@
     "@btakita/dev-bin": ["@btakita/dev-bin@workspace:lib/dev-bin"],
 
     "@btakita/domain--server--briantakita": ["@btakita/domain--server--briantakita@workspace:lib/domain--server--briantakita"],
-
-    "@btakita/snippet--rappstack": ["@btakita/snippet--rappstack@workspace:lib/snippet--rappstack"],
 
     "@btakita/ui--browser--briantakita": ["@btakita/ui--browser--briantakita@workspace:lib/ui--browser--briantakita"],
 
@@ -1347,8 +1325,6 @@
     "zod": ["zod@3.25.76", "", {}, "sha512-gzUt/qt81nXsFGKIFcC3YnfEAx5NkunCfnDlvuBSSFS02bcXu4Lmea0AFIUwbLWxWPx3d9p8S5QoaujKcNQxcQ=="],
 
     "@btakita/domain--server--briantakita/rebuildjs": ["rebuildjs@0.70.47", "", { "dependencies": { "ctx-core": "*", "elysia": "^1.4.27", "fdir": "^6.5.0", "picomatch": "^4.0.3" }, "peerDependencies": { "esbuild": "^0.27.3" } }, "sha512-kVX4Wd3+lawy+ksf87HPZE0pHDcB+578wCWO3Y9dIGlCIupfBWlLShcLsBrxpsJNmH9l4tggixD5mEFOBZNAZQ=="],
-
-    "@btakita/snippet--rappstack/rebuildjs": ["rebuildjs@0.70.47", "", { "dependencies": { "ctx-core": "*", "elysia": "^1.4.27", "fdir": "^6.5.0", "picomatch": "^4.0.3" }, "peerDependencies": { "esbuild": "^0.27.3" } }, "sha512-kVX4Wd3+lawy+ksf87HPZE0pHDcB+578wCWO3Y9dIGlCIupfBWlLShcLsBrxpsJNmH9l4tggixD5mEFOBZNAZQ=="],
 
     "@changesets/apply-release-plan/detect-indent": ["detect-indent@6.1.0", "", {}, "sha512-reYkTUJAZb9gUuZ2RvVCNhVHdg62RHnJ7WJl8ftMi4diZ6NWlciOzQN88pUhSELEwflJht4oQDv0F0BMlwaYtA=="],
 
