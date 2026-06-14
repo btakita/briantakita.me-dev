@@ -53,6 +53,10 @@ jobs:
         uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          # The API token now spans two CF accounts, so wrangler can no longer
+          # auto-select one in non-interactive mode. Pin briantakita.me's account
+          # (Brian.takita@gmail.com). Account IDs are identifiers, not secrets.
+          accountId: ${{ vars.CLOUDFLARE_ACCOUNT_ID || '1e7e194ff8da4ad9e40ce041aea84f76' }}
           command: pages deploy app/briantakita.me/dist/static --project-name briantakita-me
 
       - name: Smoke test live site
